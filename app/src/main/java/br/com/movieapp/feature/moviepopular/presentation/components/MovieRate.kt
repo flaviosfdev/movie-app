@@ -31,10 +31,6 @@ fun MovieRate(
     Row(
         modifier = modifier
             .widthIn(max = 75.dp)
-            .background(
-                color = black,
-                shape = RoundedCornerShape(75.dp)
-            )
             .padding(vertical = 4.dp, horizontal = 8.dp),
         horizontalArrangement = Arrangement.spacedBy(2.dp),
         verticalAlignment = Alignment.CenterVertically,
